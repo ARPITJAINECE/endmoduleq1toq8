@@ -1,0 +1,21 @@
+create table employee(
+emp_id int primary key,
+emp_name varchar(20),
+emp_desg varchar(30));
+
+
+create table (
+login_id int,
+login_name varchar(30),
+login_pwd varchar(15));
+
+
+create table resume(
+type varchar(30),
+req_id int);
+
+
+create table jobs(
+vacancy int,
+job_id int,
+job_dept varchar(20));
